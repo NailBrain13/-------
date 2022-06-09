@@ -1,6 +1,7 @@
 import './_reset.scss';
 import './_base.scss';
 import './_vars.scss';
+import './_section-cart.scss';
 import Title from '../Title';
 
 function App() {
