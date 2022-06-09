@@ -1,9 +1,9 @@
-const CountDown = () => {
+const BtnDelete = () => {
   return (
-    <button type='button' class='count__down'>
-      <img src='./img/icons/icon-down.svg' alt='Decrease' />
+    <button type='button'>
+      <img src='./img/icons/cross.svg' alt='Delete' />
     </button>
   );
 };
 
-export default CountDown;
+export default BtnDelete;

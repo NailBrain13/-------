@@ -1,14 +1,20 @@
-import CountDown from '../Buttons/Delete';
+import CountDown from '../Buttons/Down';
 import CountUp from '../Buttons/Up';
 import './style.scss';
 
 const Count = () => {
   return (
-    <div class='count'>
-      <div class='count__box'>
-        <input type='number' class='count__input' min='1' max='100' value='1' />
+    <div className='count'>
+      <div className='count__box'>
+        <input
+          type='number'
+          className='count__input'
+          min='1'
+          max='100'
+          value='1'
+        />
       </div>
-      <div class='count__controls'>
+      <div className='count__controls'>
         <CountUp />
         <CountDown />
       </div>

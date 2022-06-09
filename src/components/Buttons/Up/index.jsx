@@ -1,6 +1,6 @@
 const CountUp = () => {
   return (
-    <button type='button' class='count__up'>
+    <button type='button' className='count__up'>
       <img src='./img/icons/icon-up.svg' alt='Increase' />
     </button>
   );
